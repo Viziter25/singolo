@@ -32,7 +32,7 @@ p {
 }
 
 .header__inner {
-    padding: 0;
+    
     justify-content: space-between; 
     display: flex;    
 }
@@ -41,8 +41,8 @@ p {
     letter-spacing: -.5px;
     text-transform: uppercase;
     font-family: 'Lato';
-    padding-left: 40px;
-    padding-top: 30px;
+    padding-left: 36px;
+    padding-top: 28px;
     color: #ffffff;
     font-size: 25px;
     float: left;
@@ -53,7 +53,9 @@ p {
 }
 
 .nav{
-    font-size: 12px;
+    padding-left: 609px;
+    margin-top: 38px;
+    
     text-transform: uppercase;
     
 }
@@ -66,13 +68,11 @@ p {
 }
 
 .nav__list__item {
-    
-    margin-right: 40px;
-    float: left;
-    
+    margin-right: 30px;
+    list-style-type: none;
 }
 
-.navigation__link {
+.nav__link {
     
     font-family: "Lato";
     font-size: 12px;
@@ -84,7 +84,7 @@ p {
 
 }
 
-.navigation__link:hover {
+.nav__link:hover {
     opacity: 1; 
     color: #f06c64;    
 }
