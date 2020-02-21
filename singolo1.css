@@ -21,7 +21,7 @@ p {
 .header {
     height: 89px;
     background-color: #2d303a;
-    border-bottom: solid 6px red;
+    border-bottom: solid 6px #323746;
 }
 
 .container {
@@ -53,8 +53,8 @@ p {
 }
 
 .nav{
-    padding-left: 609px;
-    margin-top: 38px;
+    padding-right: 16px;
+    margin-top: 39px;
     
     text-transform: uppercase;
     
@@ -73,7 +73,7 @@ p {
 }
 
 .nav__link {
-    
+    letter-spacing: -.2px;
     font-family: "Lato";
     font-size: 12px;
     color: #ffffff;
@@ -95,10 +95,32 @@ p {
 .slider {
     height: 600px;
     background-color: #f06c64;
+    border-bottom: solid 6px #ea676b;
 }
 
+.slider__item {
+       display: flex;
+}
 
+.button__prev{
+    padding-top: 281px;
+    padding-left: 37px;
+}
 
+.iphone_vert {
+    padding-top: 53px;
+    padding-left: 54px;
+}
+
+.iphone_goriz {
+    padding-top: 174px;
+    padding-left: 73px;
+}
+
+.button__next {
+    padding-top: 281px;
+    padding-left: 55px;
+}
 
 
 
