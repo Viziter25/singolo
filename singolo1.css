@@ -1,0 +1,162 @@
+.body {
+    margin: 0 ;
+    font-family: 'Lato', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+.header {
+    height: 89px;
+    background-color: #2d303a;
+    border-bottom: solid 6px red;
+}
+
+.container {
+    width: 100%;
+    max-width: 1020px; 
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.header__inner {
+    padding: 0;
+    justify-content: space-between; 
+    display: flex;    
+}
+
+.header__logo {
+    letter-spacing: -.5px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    padding-left: 40px;
+    padding-top: 30px;
+    color: #ffffff;
+    font-size: 25px;
+    float: left;
+}
+
+.span__text{
+    color: #f06c64;
+}
+
+.nav{
+    font-size: 12px;
+    text-transform: uppercase;
+    
+}
+
+.nav__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav__list__item {
+    
+    margin-right: 40px;
+    float: left;
+    
+}
+
+.navigation__link {
+    
+    font-family: "Lato";
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+    opacity: .75; 
+    transition: opacity .1s linear, color .2s linear;
+    cursor: pointer;
+
+}
+
+.navigation__link:hover {
+    opacity: 1; 
+    color: #f06c64;    
+}
+
+
+
+
+.slider {
+    height: 600px;
+    background-color: #f06c64;
+}
+
+
+
+
+
+
+.services {
+     
+    padding: 0px 0px;
+}
+
+.services__title {
+    padding: 59px 40px;
+    color: #666d89;
+    font-family: "Lato";
+    font-size: 30px;
+    height: 0;
+}
+
+.sevices__text {
+    padding-left: 40px;
+    color: #767e9e;
+    font-family: 'Lato';
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+
+.services__inner {
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+
+.services__item {
+    width: 33.33333%;  /*ширина*/
+    padding: 0 20px;
+    max-width: 200px;
+    margin: 25px 0;
+    text-align: left;
+}
+
+.services__icon {
+    
+    
+}
+
+.services__title__item {
+    color: #666d89;
+    font-family: "Lato";
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.services__text__item {
+    width: 220px;
+    height: 54px;
+    color: #767e9e;
+    font-family: 'Lato';
+    font-size: 12px;
+    line-height: 21px;
+    text-align: justify;
+    
+}
