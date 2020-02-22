@@ -22,3 +22,61 @@ p {
     background-color: #2d303a;
     border-bottom: solid 6px #323746;
 }
+
+.container {
+    width: 100%;
+    max-width: 1020px; 
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.portfolio__title {
+    padding-top: 60px;
+    color: #666d89;
+    font-family: "Lato";
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.portfolio__text {
+    font-family: "Lato";
+    color: #767e9e;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -.23px;
+    margin-bottom: -5px;
+
+}
+
+.portfolio__list {
+    display: flex;
+    padding: 0;
+}
+
+.portgolio__list__item {
+    margin-right: 10px;
+    list-style-type: none;
+    
+}
+
+.btn {
+    background-color: #2d303a;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    color: #767e9e;
+    font-family: Lato;
+    font-size: 12px;
+    align-items: center;
+    padding: 4px 5px;
+
+    text-decoration: none;
+    opacity: .75; 
+    transition: opacity .1s linear, color .2s linear;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 1; 
+    color: #dedede;    
+}
+
