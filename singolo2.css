@@ -67,7 +67,7 @@ p {
     font-family: Lato;
     font-size: 12px;
     align-items: center;
-    padding: 4px 5px;
+    padding: 3px 7px;
 
     text-decoration: none;
     opacity: .75; 
@@ -80,3 +80,114 @@ p {
     color: #dedede;    
 }
 
+.portfolio__picture {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio__picture__item {
+    position: relative;
+    overflow: hidden;
+
+    padding-right: 20px;
+    padding-bottom: 16px;
+}
+/* <!---portfolio--> */
+
+.about {
+    padding-top: 53px;
+    border-bottom: solid 6px #fff;
+    background-color: #f2f2f2;
+}
+
+.about__title {
+    color: #666d89;
+    font-family: "Lato";
+    font-size: 30px;
+}
+
+.about__text {
+    padding-top: 18px;
+    color: #767e9e;
+    font-family: 'Lato';
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.about__inner {
+    padding-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 6px;
+    
+}
+
+.about__item {
+    width: 33%;
+    padding: 0px 0px;
+    margin: 0 -6px;
+    margin-bottom: 30px;
+}
+
+.about__photo {
+    margin-bottom: 17px;
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.about__name {
+    margin-bottom: 7px;
+
+    color: #666d89;
+    font-family: "Lato - Black";
+    font-size: 18px;
+
+}
+
+.about__item__text{
+    color: #767e9e;
+    font-family: Lato;
+    font-size: 12px;
+    text-align: justify;
+    width: 301px;
+    line-height: 21px ;
+    margin-bottom: 23px;
+}
+
+.social {
+    display: flex;
+}
+
+.social__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+
+    border: 1px solid #666d89;
+    border-radius: 50%;
+
+    background-color: #fff;
+    transition: background .2s linear;
+
+}
+
+.social__item:hover {
+    background-color: #666d89;
+}
+
+.social__item:hover .social__icon {
+    fill: #000
+}
+
+.social__icon {
+    display: block;
+    height: 15px;
+    fill: #525870;
+
+    transition: fill .1s linear;
+}
