@@ -1,74 +1,85 @@
-.body {
-    margin: 0 ;
-    font-family: 'Lato', sans-serif;
-}
 
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
-p {
-    margin: 0;
-}
 
 .quote {
-    height: 648px;
+    padding: 60px 0;
     background-color: #f06c64;
     border-bottom: solid 6px #ea676b;
 }
 
-.container {
-    width: 100%;
-    max-width: 1020px; 
-    margin: 0 auto;
-    padding: 0 40px;
-}
+
 
 .quote__title {
-    padding-top: 59px;
+    
     color: #f0d8d9;
-    font-family: "Lato";
+    font-family: "Lato" , sans-serif;
+    font-weight: 900;
     font-size: 30px;
     margin-bottom: 18px;
+    letter-spacing: -.1px;
 }
 
-.quote__text {
-    max-width: 938px;;
-    font-family: "Lato";
+.quote__text {    
     color: #f0d8d9;
     font-size: 18px;
     line-height: 30px;
-    letter-spacing: -.5px;
-    margin-bottom: 48px;
+    
+    margin-bottom: 42px;
     font-weight: 300;
     text-align: justify;
+    letter-spacing: px;
 }
 
 .quote__inner {
     display: flex;
 }
 
-.contact{
+.form {
+    width: 66%;
+    padding-right: px;
+    
+}
 
+.input {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+    color: #fff;
+    background-color: #d6564f;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 15px;
+}
+
+.input::placeholder {
+    color: #f48c8f; 
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.input-area {
+    resize: none;
+}
+
+.input--btn {
+    width: 150px;
+    cursor: pointer;
+}
+
+.contact{
+    width: 33%;
+    padding-left: 20px;
 }
     
 .contact__title {
-    margin-bottom: 10px;
-    font-family: "Lato Black", sans-serif;
+    margin-bottom: 7px;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 900;
     color: #f0d8d9;
 }
 
 .contact__text {
     margin-bottom: 25px;
-    max-width: 298px;
+    
     color: #f0d8d9;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
