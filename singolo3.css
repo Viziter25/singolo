@@ -1,1 +1,155 @@
- 
+.body {
+    margin: 0 ;
+    font-family: 'Lato', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.quote {
+    height: 648px;
+    background-color: #f06c64;
+    border-bottom: solid 6px #ea676b;
+}
+
+.container {
+    width: 100%;
+    max-width: 1020px; 
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.quote__title {
+    padding-top: 59px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.quote__text {
+    max-width: 938px;;
+    font-family: "Lato";
+    color: #f0d8d9;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -.5px;
+    margin-bottom: 48px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.quote__inner {
+    display: flex;
+}
+
+.contact{
+
+}
+    
+.contact__title {
+    margin-bottom: 10px;
+    font-family: "Lato Black", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f0d8d9;
+}
+
+.contact__text {
+    margin-bottom: 25px;
+    max-width: 298px;
+    color: #f0d8d9;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+    text-align: justify;
+    letter-spacing: -.1px;
+}
+
+.contact__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact__item {
+    
+}
+
+.img {
+    width: 12px;
+}
+
+.contact__link {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #f0d8d9;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.2px;
+}
+
+.footer {
+    height: 76px;
+    background-color: #2d303a;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer__copyright {
+
+}
+
+.social {
+    display: flex;
+    
+}
+
+.social__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+
+    border: 1px solid #666d89;
+    border-radius: 50%;
+
+    background-color: #2d303a;
+    transition: background .2s linear;
+
+}
+
+.social__item:hover {
+    background-color: #666d89;
+}
+
+.social__item:hover .social__icon {
+    fill: #000
+}
+
+.social__icon {
+    display: block;
+    height: 15px;
+    fill: #525870;
+
+    transition: fill .1s linear;
+}
