@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body id="body">
 
     <!-- Sprite svg-->
 
@@ -77,56 +77,78 @@
 
     <!--Sigolo1-->
     <!--header-->
+    
     <header class="header">
         <div class="container">
-            <div class="header__inner">
-                <h1 class="header__logo">Singolo<span class="span__text">*</span></h1>
-
-                <nav class="nav">
-                    <ul class="nav__list">
-                        <li class="nav__list__item">
-                            <a href="#" class="nav__link"><span class="span__text">Home</span></a>
-                        </li>
-                        <li class="nav__list__item">
-                            <a href="#" class="nav__link">Services</a>
-                        </li>
-                        <li class="nav__list__item">
-                            <a href="#" class="nav__link">Portfolio</a>
-                        </li>
-                        <li class="nav__list__item">
-                            <a href="#" class="nav__link">About</a>
-                        </li>
-                        <li class="nav__list__item">
-                            <a href="#" class="nav__link">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+            <div class="header__inner" id="header__iner">
+                <h1 id="header__logo" class="header__logo">Singolo<span class="span__text">*</span></h1>
+                <div class="sidebar" id="sidebar">
+                    <nav class="nav" id="nav1">
+                        <ul class="nav__list" id="menu">
+                            <li class="nav__list__item">
+                                <a href="#home" class="nav__link nav__link-active">Home</a>
+                            </li>
+                            <li class="nav__list__item">
+                                <a href="#services" class="nav__link">Services</a>
+                            </li>
+                            <li class="nav__list__item">
+                                <a href="#portfolio" class="nav__link">Portfolio</a>
+                            </li>
+                            <li class="nav__list__item">
+                                <a href="#about" class="nav__link">About</a>
+                            </li>
+                            <li class="nav__list__item">
+                                <a href="#Contact" class="nav__link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+                <div class="burger-menu" >
+    
+                    
+                    <button id="burger" class="burger" type="button">
+                        <span class="burger__item">menu</span>
+                    </button>
+    
+                    <div class="burger-menu__overlay"></div>
+                </div>
             </div>
         </div>
     </header>
 
     <!--slider-->
-    <div class="slider">
+    <div class="slider" id="home">
         <div class="container">
-            <div class="slider__item">
-                <div class="button__prev">
-                    <a href="#" class="slider__link"><img src="assets/prev.png" alt="" /></a>
+            <div class="slider__inner">
+
+                <div class="slider__item fade" >
+                    <div class="iphone_vert">
+                        <img src="assets/iphone_vertical.png" alt="" />
+                    </div>
+                    <div class="iphone_goriz">
+                        <img src="assets/iPhone_Horizontal.png" alt="" />
+                    </div>
                 </div>
-                <div class="iphone_vert">
-                    <img src="assets/iphone_vertical.png" alt="" />
+
+                <div class="slider__item">
+                    
+                    <img class="picture__slide2" src="assets/Slide-2.png" alt="">
+                    
                 </div>
-                <div class="iphone_goriz">
-                    <img src="assets/iPhone_Horizontal.png" alt="" />
-                </div>
-                <div class="button__next">
-                    <a href="#"><img src="assets/next.png" alt="" /></a>
-                </div>
+
+                <div class="arrow arrow__prev"></div>
+                <div class="arrow arrow__next"></div> 
             </div>
+            
+            
         </div>
     </div>
 
+    
+
     <!--services-->
-    <div class="services">
+    <div class="services" id="services">
         <div class="container">
             <h2 class="services__title ">Our Services</h2>
             <p class="sevices__text">
@@ -214,69 +236,198 @@
 
     <!--Singolo2-->
     <!--portfolio-->
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
         <div class="container">
             <h2 class="portfolio__title">Portfolio</h2>
             <p class="portfolio__text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
                 odio sem nec elit.</p>
-            <ul class="portfolio__list">
-                <li class="portgolio__list__item">
+            <ul class="portfolio__list" id="tabe">
+                <li class="portfolio__list__item">
                     <button class="btn" href='#'>All</button>
                 </li>
-                <li class="portgolio__list__item">
+                <li class="portfolio__list__item">
                     <button class="btn" href='#'>Web Design</button>
                 </li>
-                <li class="portgolio__list__item">
+                <li class="portfolio__list__item">
                     <button class="btn" href='#'>Graphic Design</button>
                 </li>
-                <li class="portgolio__list__item">
+                <li class="portfolio__list__item">
                     <button class="btn" href='#'>Artwork</button>
                 </li>
             </ul>
 
-            <div class="portfolio__picture">
+            <div class="portfolio__picture fade" >
+
                 <div class="portfolio__picture__item">
-                    <img src="assets/Project1.png" alt="">
+                    <img class="img11" src="assets/Project1.png" alt="">
                 </div>
                 <div class="portfolio__picture__item">
-                    <img src="assets/Project2.png" alt="">
+                    <img class="img11" src="assets/Project2.png" alt="">
                 </div>
                 <div class="portfolio__picture__item">
-                    <img src="assets/Layer_9.png" alt="">
+                    <img class="img11" src="assets/Layer_9.png" alt="">
                 </div>
                 <div class="portfolio__picture__item">
-                    <img src="assets/Project3.png" alt="">
+                    <img class="img11" src="assets/Project3.png" alt="">
                 </div>
                 <div class="portfolio__picture__item">
-                    <img src="assets/Project4.png" alt="">
+                    <img class="img11" src="assets/Project4.png" alt="">
                 </div>
                 <div class="portfolio__picture__item">
-                    <img src="assets/Project5.png" alt="">
+                    <img class="img11" src="assets/Project5.png" alt="">
                 </div>
                 <div class="portfolio__picture__item">
-                    <img src="assets/Layer_11.png" alt="">
+                    <img class="img11" src="assets/Layer_11.png" alt="">
                 </div>
                 <div class="portfolio__picture__item">
-                    <img src="assets/Layer_8.png" alt="">
+                    <img class="img11" src="assets/Layer_8.png" alt="">
                 </div>
                 <div class="portfolio__picture__item">
-                    <img src="assets/Project6.png" alt="">
+                    <img class="img11" src="assets/Project6.png" alt="">
                 </div>
                 <div class="portfolio__picture__item">
-                    <img src="assets/Project7.png" alt="">
+                    <img class="img11" src="assets/Project7.png" alt="">
                 </div>
                 <div class="portfolio__picture__item">
-                    <img src="assets/Project8.png" alt="">
+                    <img class="img11" src="assets/Project8.png" alt="">
                 </div>
                 <div class="portfolio__picture__item">
-                    <img src="assets/Project.png" alt="">
+                    <img class="img11" src="assets/Project.png" alt="">
                 </div>
+
             </div>
+
+            <div class="portfolio__picture fade" >
+
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project1.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project2.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Layer_9.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project3.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project4.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project5.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Layer_11.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Layer_8.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project6.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project7.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project8.png" alt="">
+                </div>
+                
+
+            </div>
+
+            <div class="portfolio__picture fade" >
+
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project8.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project1.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project2.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Layer_9.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project3.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project4.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project5.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Layer_11.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Layer_8.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project6.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project7.png" alt="">
+                </div>
+                
+
+            </div>
+
+            <div class="portfolio__picture fade" >
+
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project7.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project8.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project1.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project2.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Layer_9.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project3.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project4.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project5.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Layer_11.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Layer_8.png" alt="">
+                </div>
+                <div class="portfolio__picture__item">
+                    <img class="img11" src="assets/Project6.png" alt="">
+                </div>
+                
+
+            </div>
+            
         </div>
     </div>
 
     <!--about-->
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <h2 class="about__title">About Us</h2>
             <p class="about__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non
@@ -400,7 +551,7 @@
     </div>
 
     <!--quote----->
-    <div class="quote">
+    <div class="quote" id="Contact">
         <div class="container">
             <h2 class="quote__title">Get a Quote</h2>
             <p class="quote__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non
@@ -410,13 +561,30 @@
             <div class="quote__inner">
 
                 <form action="/" method="POST" class="form">
-                    <input type="text" class="input" placeholder="Name (Required)" required>
-                    <input type="email" class="input" placeholder="Email (Required)" required>
-                    <input type="text" class="input" placeholder="Subject">
-                    <textarea name="" id="" cols="30" rows="11" class="input input-area"
+                    <input  id="name" type="text" class="input" placeholder="Name (Required)" required>
+                    <input id="email" type="email" class="input" placeholder="Email (Required)" required>
+                    <input id="subject" type="text" class="input" placeholder="Subject">
+                    <textarea name="" id="textarea" cols="30" rows="11" class="input input-area"
                         placeholder="Describe your project in detail..."></textarea>
-                    <button type="submit" class="input__btn input--btn">Submit</button>
+                    <button id="btn2" type="submit" class="input__btn input--btn">Submit</button>
                 </form>
+
+                <div class="overlay">
+                    <div class="modal">
+                        <h2 class="modal_title">Письмо отправлено</h2>
+                        <div id="theme" class="modal_text">Без темы</div>
+                        <div id="description" class="modal_text">Без описания</div>
+                        <button id="close_btn" class="close_btn">OK</button>
+                    </div>
+                </div>
+
+
+                <!-- <div id="message-block" class="hidden">
+                    <div class="message">
+                        <p>text: <span class="result1"></span></p>
+                        <button id="close-btn">ok</button>
+                    </div>
+                </div> -->
 
                 <div class="contact">
                     <h3 class="contact__title">Contact Information</h3>
@@ -431,14 +599,16 @@
                         </li>
                         <li class="contact__item">
                             <img class="icon__phone" src="assets/phone1.png" alt="">
-                            <a href="#" class="contact__link__phone">03528 331 86 35</a>
+                            <a href="tel:03528 331 86 35" class="contact__link__phone">03528 331 86 35</a>
                         </li>
                         <li class="contact__item">
                             <img class="icon__mail" src="assets/mail.png" alt="">
-                            <a href="#" class="contact__link__mail">info@singolo.com</a>
+                            <a href="mailto:info@singolo.com" class="contact__link__mail">info@singolo.com</a>
                         </li>
                     </ul>
                 </div>
+
+                
             </div>
         </div>
     </div>
@@ -480,6 +650,8 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
+    
 </body>
 
 </html>
