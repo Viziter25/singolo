@@ -8,6 +8,9 @@ MENU.forEach(e => {
   e.addEventListener("click", () => {
     MENU.forEach(el => {
       el.classList.remove("nav__link-active");
+      document.getElementById('sidebar').classList.toggle('active');
+      document.getElementById('header__logo').classList.toggle('active');
+      burger.classList.toggle('active');
     });
     e.classList.add("nav__link-active");
   });
@@ -265,7 +268,7 @@ let overlay = document.querySelector('.overlay'),
           overlay.style.display = 'flex';
           document.body.style.overflow = 'hidden';
       }
-  })
+  });
 
 
   close.onclick = function () {
@@ -277,9 +280,9 @@ let overlay = document.querySelector('.overlay'),
     name.value = '';
     email.value = '';
     document.body.style.overflow = '';
-  }
+  };
 
-    overlay.addEventListener('click', e =>{
+    overlay.addEventListener('click', e => {
       let target = e.target;
       if (target.classList.contains('overlay')) {
           overlay.style.display = 'none';
@@ -291,13 +294,13 @@ let overlay = document.querySelector('.overlay'),
           theme.textContent = 'Без темы';
           description.textContent = 'Без описания';
       }
-  })
+  });
 
     // -------------------burger
    
-    const burger = document.querySelector('.burger')
+    const burger = document.querySelector('.burger');
     
-    burger.addEventListener('click', openMenu)
+    burger.addEventListener('click', openMenu);
      function openMenu() {
       document.getElementById('sidebar').classList.toggle('active');
       document.getElementById('header__logo').classList.toggle('active');
