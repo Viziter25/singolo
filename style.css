@@ -838,17 +838,38 @@ p {
     width: 50%;
   }
 
-  .portfolio__picture__item {
-    
-  }
 
 
   .about__item {
     width: 31.7%;
 }
 
+
+ /*---------------- footer */
+
+ .footer__inner {
+  justify-content: center;
+}
+
+.icon__copyright {
+  display: none;
+}
+
+
+
+
+
+
+
 @media (max-width:375px) {
-  .header-fixed{
+  
+  .wrapper.active {
+    background-color: black;
+  }
+  
+  
+  
+  .header-fixed {
     opacity: 1;
   }
   /* ---------------------nav */
@@ -903,7 +924,7 @@ p {
   }
 
   .portfolio__picture {
-    /* height: 525px; */
+    height: 525px;
     justify-content: space-between;
   }
 
@@ -945,6 +966,27 @@ p {
   padding-left: 0px;
   padding-top: 20px;
   }
+
+.input__btn {
+    padding-top: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+
+
+    /*---------------- footer */
+
+    .footer__inner {
+      justify-content: center;
+    }
+
+    .icon__copyright {
+      display: none;
+    }
+    
 
   /* ---------------burger */
 
@@ -1087,12 +1129,6 @@ p {
   .nav__link::after {
     display: none;
   }
-
-
-  .burger:hover {
-        
-  }
-
 
 
 }
